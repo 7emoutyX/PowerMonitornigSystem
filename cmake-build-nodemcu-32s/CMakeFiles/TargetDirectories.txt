@@ -1,0 +1,5 @@
+C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/CMakeFiles/Production.dir
+C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/CMakeFiles/Debug.dir
+C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/CMakeFiles/Z_DUMMY_TARGET.dir
+C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/CMakeFiles/edit_cache.dir
+C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/CMakeFiles/rebuild_cache.dir

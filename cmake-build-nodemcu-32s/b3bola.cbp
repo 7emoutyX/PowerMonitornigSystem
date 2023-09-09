@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="b3bola"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLATFORMIO=60109"/>
+					<Add option="-DARDUINO_NodeMCU_32S"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DMBEDTLS_CONFIG_FILE=&quot;mbedtls/esp_config.h&quot;"/>
+					<Add option="-DUNITY_INCLUDE_CONFIG_H"/>
+					<Add option="-DWITH_POSIX"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DIDF_VER=&quot;v4.4.4&quot;"/>
+					<Add option="-DESP_PLATFORM"/>
+					<Add option="-D_POSIX_READER_WRITER_LOCKS"/>
+					<Add option="-DARDUINO_ARCH_ESP32"/>
+					<Add option="-DESP32"/>
+					<Add option="-DF_CPU=240000000L"/>
+					<Add option="-DARDUINO=10812"/>
+					<Add option="-DARDUINO_VARIANT=&quot;nodemcu-32s&quot;"/>
+					<Add option="-DARDUINO_BOARD=&quot;NodeMCU-32S&quot;"/>
+					<Add option="-DARDUINO_PARTITION_default"/>
+					<Add directory="C:/Users/Hemouty/CLionProjects/b3bola/include"/>
+					<Add directory="C:/Users/Hemouty/CLionProjects/b3bola/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src"/>
+					<Add directory="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/src"/>
+					<Add directory="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/AsyncTCP-esphome/src"/>
+					<Add directory="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESP32WebServer/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/FS/src"/>
+					<Add directory="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit TSL2561"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src"/>
+					<Add directory="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit Unified Sensor"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/port/xtensa/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/esp32"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/port/esp32"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/port/esp32/private_include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/heap/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/log/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/include/apps"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/include/apps/sntp"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/lwip/src/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/port/esp32/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/port/esp32/include/arch"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/esp32/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/platform_port/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include/esp32"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/esp32"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_system/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_system/port/soc"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_system/port/public_compat"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp32/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/driver/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/driver/esp32/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_pm/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_ringbuf/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/efuse/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/efuse/esp32/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/vfs/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_wifi/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_event/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_netif/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_eth/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/tcpip_adapter/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_phy/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_phy/esp32/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_ipc/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/app_trace/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_timer/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/port/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/esp_crt_bundle/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/app_update/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spi_flash/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bootloader_support/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/nvs_flash/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/pthread/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_gdbstub/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_gdbstub/xtensa"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_gdbstub/esp32"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espcoredump/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espcoredump/include/port/xtensa"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wpa_supplicant/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wpa_supplicant/port/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wpa_supplicant/esp_supplicant/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/ieee802154/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/console"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/asio/asio/asio/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/asio/port/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/common/osi/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/include/esp32/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/common/api/include/api"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/common/btc/profile/esp/blufi/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/common/btc/profile/esp/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/host/bluedroid/api/include/api"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_common/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_common/tinycrypt/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_core"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_core/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_core/storage"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/btc/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_models/common/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_models/client/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_models/server/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/api/core/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/api/models/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/api"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/cbor/port/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/unity/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/unity/unity/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/cmock/CMock/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/coap/port/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/coap/libcoap/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/nghttp/port/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/nghttp/nghttp2/lib/includes"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-tls"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-tls/esp-tls-crypto"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_adc_cal/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hid/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/tcp_transport/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_http_client/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_http_server/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_https_ota/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_https_server/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_lcd/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_lcd/interface"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/protobuf-c/protobuf-c"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/protocomm/include/common"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/protocomm/include/security"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/protocomm/include/transports"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mdns/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_local_ctrl/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/sdmmc/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_serial_slave_link/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_websocket_client/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/expat/expat/expat/lib"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/expat/port/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wear_levelling/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/fatfs/diskio"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/fatfs/vfs"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/fatfs/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freemodbus/freemodbus/common/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/idf_test/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/idf_test/include/esp32"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/jsmn/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/json/cJSON"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/libsodium/libsodium/src/libsodium/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/libsodium/port_include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mqtt/esp-mqtt/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/openssl/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/perfmon/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spiffs/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/ulp/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wifi_provisioning/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/rmaker_common/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_diagnostics/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/rtc_store/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_insights/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/json_parser/upstream/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/json_parser/upstream"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/json_generator/upstream"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_schedule/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp_secure_cert_mgr/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rainmaker/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/gpio_button/button/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/qrcode/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/ws2812_led"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_littlefs/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/tool"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/typedef"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/image"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/math"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/nn"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/layer"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/detect"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/model_zoo"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-sr/src/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-sr/esp-tts/esp_tts_chinese/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-sr/include/esp32"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp32-camera/driver/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp32-camera/conversions/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/dotprod/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/support/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/hann/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/blackman/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/blackman_harris/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/blackman_nuttall/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/nuttall/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/flat_top/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/iir/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/fir/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/add/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/sub/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/mul/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/addc/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/mulc/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/sqrt/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/matrix/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/fft/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/dct/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/conv/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/common/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/kalman/ekf/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/kalman/ekf_imu13states/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/fb_gfx/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/dio_qspi/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/cores/esp32"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/variants/nodemcu-32s"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/BluetoothSerial/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/DNSServer/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/EEPROM/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/ESP32/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/Ethernet/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/Insights/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/LittleFS/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/NetBIOS/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/Preferences/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/RainMaker/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/SD/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/USB/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/Update/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/xtensa-esp32-elf/include/c++/8.4.0"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/lib/gcc/xtensa-esp32-elf/8.4.0/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/xtensa-esp32-elf/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLATFORMIO=60109"/>
+					<Add option="-DARDUINO_NodeMCU_32S"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DMBEDTLS_CONFIG_FILE=&quot;mbedtls/esp_config.h&quot;"/>
+					<Add option="-DUNITY_INCLUDE_CONFIG_H"/>
+					<Add option="-DWITH_POSIX"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DIDF_VER=&quot;v4.4.4&quot;"/>
+					<Add option="-DESP_PLATFORM"/>
+					<Add option="-D_POSIX_READER_WRITER_LOCKS"/>
+					<Add option="-DARDUINO_ARCH_ESP32"/>
+					<Add option="-DESP32"/>
+					<Add option="-DF_CPU=240000000L"/>
+					<Add option="-DARDUINO=10812"/>
+					<Add option="-DARDUINO_VARIANT=&quot;nodemcu-32s&quot;"/>
+					<Add option="-DARDUINO_BOARD=&quot;NodeMCU-32S&quot;"/>
+					<Add option="-DARDUINO_PARTITION_default"/>
+					<Add directory="C:/Users/Hemouty/CLionProjects/b3bola/include"/>
+					<Add directory="C:/Users/Hemouty/CLionProjects/b3bola/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src"/>
+					<Add directory="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/src"/>
+					<Add directory="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/AsyncTCP-esphome/src"/>
+					<Add directory="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESP32WebServer/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/FS/src"/>
+					<Add directory="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit TSL2561"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src"/>
+					<Add directory="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit Unified Sensor"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/port/xtensa/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/esp32"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/port/esp32"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/port/esp32/private_include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/heap/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/log/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/include/apps"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/include/apps/sntp"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/lwip/src/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/port/esp32/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/port/esp32/include/arch"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/esp32/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/platform_port/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include/esp32"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/esp32"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_system/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_system/port/soc"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_system/port/public_compat"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp32/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/driver/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/driver/esp32/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_pm/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_ringbuf/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/efuse/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/efuse/esp32/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/vfs/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_wifi/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_event/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_netif/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_eth/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/tcpip_adapter/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_phy/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_phy/esp32/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_ipc/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/app_trace/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_timer/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/port/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/esp_crt_bundle/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/app_update/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spi_flash/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bootloader_support/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/nvs_flash/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/pthread/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_gdbstub/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_gdbstub/xtensa"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_gdbstub/esp32"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espcoredump/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espcoredump/include/port/xtensa"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wpa_supplicant/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wpa_supplicant/port/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wpa_supplicant/esp_supplicant/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/ieee802154/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/console"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/asio/asio/asio/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/asio/port/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/common/osi/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/include/esp32/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/common/api/include/api"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/common/btc/profile/esp/blufi/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/common/btc/profile/esp/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/host/bluedroid/api/include/api"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_common/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_common/tinycrypt/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_core"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_core/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_core/storage"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/btc/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_models/common/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_models/client/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/mesh_models/server/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/api/core/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/api/models/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/bt/esp_ble_mesh/api"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/cbor/port/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/unity/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/unity/unity/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/cmock/CMock/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/coap/port/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/coap/libcoap/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/nghttp/port/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/nghttp/nghttp2/lib/includes"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-tls"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-tls/esp-tls-crypto"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_adc_cal/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hid/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/tcp_transport/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_http_client/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_http_server/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_https_ota/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_https_server/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_lcd/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_lcd/interface"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/protobuf-c/protobuf-c"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/protocomm/include/common"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/protocomm/include/security"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/protocomm/include/transports"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mdns/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_local_ctrl/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/sdmmc/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_serial_slave_link/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_websocket_client/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/expat/expat/expat/lib"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/expat/port/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wear_levelling/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/fatfs/diskio"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/fatfs/vfs"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/fatfs/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freemodbus/freemodbus/common/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/idf_test/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/idf_test/include/esp32"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/jsmn/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/json/cJSON"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/libsodium/libsodium/src/libsodium/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/libsodium/port_include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mqtt/esp-mqtt/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/openssl/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/perfmon/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spiffs/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/ulp/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wifi_provisioning/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/rmaker_common/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_diagnostics/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/rtc_store/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_insights/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/json_parser/upstream/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/json_parser/upstream"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/json_generator/upstream"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_schedule/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp_secure_cert_mgr/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rainmaker/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/gpio_button/button/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/qrcode/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/ws2812_led"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_littlefs/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/tool"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/typedef"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/image"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/math"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/nn"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/layer"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/detect"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-dl/include/model_zoo"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-sr/src/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-sr/esp-tts/esp_tts_chinese/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp-sr/include/esp32"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp32-camera/driver/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp32-camera/conversions/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/dotprod/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/support/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/hann/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/blackman/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/blackman_harris/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/blackman_nuttall/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/nuttall/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/windows/flat_top/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/iir/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/fir/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/add/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/sub/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/mul/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/addc/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/mulc/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/math/sqrt/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/matrix/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/fft/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/dct/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/conv/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/common/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/kalman/ekf/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/espressif__esp-dsp/modules/kalman/ekf_imu13states/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/fb_gfx/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/dio_qspi/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/cores/esp32"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/variants/nodemcu-32s"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/BluetoothSerial/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/DNSServer/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/EEPROM/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/ESP32/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/Ethernet/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/Insights/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/LittleFS/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/NetBIOS/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/Preferences/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/RainMaker/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/SD/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/USB/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/Update/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/xtensa-esp32-elf/include/c++/8.4.0"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/lib/gcc/xtensa-esp32-elf/8.4.0/include"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed"/>
+					<Add directory="C:/Users/Hemouty/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/xtensa-esp32-elf/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Hemouty/CLionProjects/b3bola/cmake-build-nodemcu-32s/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit TSL2561/.github/ISSUE_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit TSL2561/.github/PULL_REQUEST_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit TSL2561/.github/workflows/githubci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit TSL2561/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit TSL2561/Adafruit_TSL2561_U.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit TSL2561/Adafruit_TSL2561_U.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit TSL2561/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit TSL2561/examples/sensorapi/sensorapi.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit TSL2561/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit Unified Sensor/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit Unified Sensor/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit Unified Sensor/Adafruit_Sensor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit Unified Sensor/Adafruit_Sensor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit Unified Sensor/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit Unified Sensor/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit Unified Sensor/examples/sensortest/sensortest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/Adafruit Unified Sensor/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/AsyncTCP-esphome/.github/scripts/install-arduino-core-esp32.sh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/AsyncTCP-esphome/.github/scripts/install-arduino-ide.sh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/AsyncTCP-esphome/.github/scripts/install-platformio.sh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/AsyncTCP-esphome/.github/scripts/on-push.sh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/AsyncTCP-esphome/.github/stale.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/AsyncTCP-esphome/.github/workflows/push.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/AsyncTCP-esphome/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/AsyncTCP-esphome/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/AsyncTCP-esphome/.travis.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/AsyncTCP-esphome/CMakeLists.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/AsyncTCP-esphome/Kconfig.projbuild">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/AsyncTCP-esphome/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/AsyncTCP-esphome/component.mk">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/AsyncTCP-esphome/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/AsyncTCP-esphome/src/AsyncTCP.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/AsyncTCP-esphome/src/AsyncTCP.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESP32WebServer/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESP32WebServer/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESP32WebServer/examples/esp32webserver1/esp32webserver1.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESP32WebServer/examples/esp32webserver2/esp32webserver2.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESP32WebServer/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESP32WebServer/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESP32WebServer/src/ESP32WebServer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESP32WebServer/src/ESP32WebServer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESP32WebServer/src/Parsing.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESP32WebServer/src/detail/RequestHandler.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESP32WebServer/src/detail/RequestHandlersImpl.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/.github/scripts/install-arduino-core-esp32.sh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/.github/scripts/install-arduino-core-esp8266.sh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/.github/scripts/install-arduino-ide.sh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/.github/scripts/install-platformio.sh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/.github/scripts/on-push.sh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/.github/stale.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/.github/workflows/push.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/.travis.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/CMakeLists.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/_config.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/component.mk">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/examples/CaptivePortal/CaptivePortal.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/examples/regex_patterns/.test.build_flags">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/examples/regex_patterns/regex_patterns.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/examples/simple_server/simple_server.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/src/AsyncEventSource.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/src/AsyncEventSource.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/src/AsyncJson.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/src/AsyncWebSocket.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/src/AsyncWebSocket.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/src/AsyncWebSynchronization.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/src/ESPAsyncWebServer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/src/StringArray.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/src/WebAuthentication.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/src/WebAuthentication.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/src/WebHandlerImpl.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/src/WebHandlers.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/src/WebRequest.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/src/WebResponseImpl.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/src/WebResponses.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/ESPAsyncWebServer-esphome/src/WebServer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/.pio/libdeps/nodemcu-32s/integrity.dat">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/src/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Hemouty/CLionProjects/b3bola/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
