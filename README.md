@@ -27,9 +27,9 @@ To set up and run this project locally, follow these steps:
 
 - **Final Result View**:
   ![Final Result](https://github.com/7emoutyX/PowerMonitornigSystem/assets/110437117/e7882d66-13a1-452a-991a-a40cd58b6f5f)
-- **WEB Page **:
+- **WEB Page**:
   ![Web page](https://github.com/7emoutyX/PowerMonitornigSystem/assets/110437117/2fd46930-24d7-4bea-8cef-d97fd0ab4118)
-- **Data Base **:
+- **Data Base**:
   ![Data Base](https://github.com/7emoutyX/PowerMonitornigSystem/assets/110437117/0e1d92c3-d478-4923-b379-a2e3de8d5393)
 
 ## Key Features
